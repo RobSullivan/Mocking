@@ -65,7 +65,7 @@ public class CounterTest {
 		first = count.getValue();
 		mockedFirst = mockedCounter.getValue();
 		
-		assertEquals("Wrong Answer", mockedFirst, first);
+		assertEquals("Wrong Answer", first, mockedFirst);
 		
 	}
 	
