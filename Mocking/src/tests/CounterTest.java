@@ -11,6 +11,7 @@ public class CounterTest {
 	@Test
 	public void test() {
 		
+
 		Integer first;
 		Integer expectedFirst = 1;
 		
@@ -42,6 +43,7 @@ public class CounterTest {
 		assertEquals("Wrong answer", expectedFirst, first);
 		
 		
+
 	}
 
 }
