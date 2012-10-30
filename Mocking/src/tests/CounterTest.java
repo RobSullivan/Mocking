@@ -11,6 +11,23 @@ public class CounterTest {
 	@Test
 	public void test() {
 		
+		Integer first;
+		Integer expectedFirst = 1;
+		
+		Counter count = new Counter();
+		
+		
+		
+		first = count.getValue();
+		
+		
+		assertEquals("Wrong answer", expectedFirst, first);
+	}
+	
+	@Test
+	public void test2(){
+		
+
 		Integer first, mockedFirst;
 		Integer expectedFirst = 1;
 		
@@ -23,6 +40,8 @@ public class CounterTest {
 		mockedFirst = mockedCounter.getValue();
 		
 		assertEquals("Wrong answer", expectedFirst, first);
+		
+		
 	}
 
 }
