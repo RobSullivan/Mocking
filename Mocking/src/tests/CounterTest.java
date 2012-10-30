@@ -35,12 +35,12 @@ public class CounterTest {
 		Counter count = new Counter();
 		
 		Counter mockedCounter = mock(Counter.class);
-		when(mockedCounter.getValue()).thenReturn(1);
+		when(mockedCounter.getValue()).thenReturn(2);
 		
 		first = count.getValue();
 		mockedFirst = mockedCounter.getValue();
 		
-		assertEquals("Wrong answer", expectedFirst, first);
+		assertEquals("Wrong answer", first, mockedFirst);
 		
 		
 
